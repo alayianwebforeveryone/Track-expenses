@@ -61,7 +61,7 @@ function UserData({ setExpensesData, expense, setExpense, isEditing, setIsEditin
                 name="title"
                 type="text"
                 onBlur={handleBlur}
-                className="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white   shadow-sm ring-1 ring-inset ring-[#AAABB8]  sm:text-sm sm:leading-6"
+                className="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white px-2  shadow-sm ring-1 ring-inset ring-[#AAABB8]  sm:text-sm sm:leading-6"
               />
             </div>
             {touched.title && errors.title ? (
@@ -79,11 +79,11 @@ function UserData({ setExpensesData, expense, setExpense, isEditing, setIsEditin
                 value={values.cetagory}
                 onBlur={handleBlur}
                 onChange={handleChange}
-                className="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#AAABB8]  sm:leading-6"
+                className="block w-full px-2  rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#AAABB8]  sm:leading-6"
               >
                 <option  style= {{backgroundColor : "#AAABB8  "}} className='font-bold text-[#25274D]' value="">Please choose an option</option>
                 <option style= {{backgroundColor : "#AAABB8  "}} className='text-[#25274D]' value="Food">Food</option>
-                <option  style= {{backgroundColor : "#AAABB8  "}} className='text-[#25274D]' value="Internet and Mobile" >Internet and Mobile</option>
+                <option  style= {{backgroundColor : "#AAABB8  "}} className='text-[#25274D]' value="Internet and Mobile" > Mobile</option>
                 <option style= {{backgroundColor : "#AAABB8  "}} className='text-[#25274D]' value="Education">Education</option>
                 <option style= {{backgroundColor : "#AAABB8  "}} className='text-[#25274D]' value="Health">Health</option>
                 <option style= {{backgroundColor : "#AAABB8  "}} className='text-[#25274D]' value="Other">Other</option>
@@ -106,7 +106,7 @@ function UserData({ setExpensesData, expense, setExpense, isEditing, setIsEditin
                 name="amount"
                 type="text"
                 onBlur={handleBlur}
-                className="block w-full rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#AAABB8]   sm:leading-6"
+                className="block w-full px-2  rounded-md border-0 bg-white/5 py-1.5 text-white shadow-sm ring-1 ring-inset ring-[#AAABB8]   sm:leading-6"
               />
             </div>
             {touched.amount && errors.amount ? (

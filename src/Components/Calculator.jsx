@@ -88,11 +88,11 @@ function Calculator({ expensesData, setExpensesData, expense, setExpense, setIsE
 
 
 
-                      <th className="text-lg font-bold  text-[#25274D]  px-6 py-4 whitespace-nowrap">
+                      <th className="text-lg font-bold  text-[#25274D]  px-2 xl:px-4 py-2 whitespace-nowrap">
                         Title
                       </th>
-                      <th className="text-lg font-bold    px-6 py-4 whitespace-nowrap">
-                        <select className='bg-[#AAABB8]'
+                      <th className="text-lg font-bold  px-2 md:px-4   py-4 whitespace-nowrap">
+                        <select className='bg-[#AAABB8] w-[105px]'
                           value={cetagory}
                           onChange={handleCetagoryFilter}
                           name="cetagory" id="ceta">
@@ -101,10 +101,10 @@ function Calculator({ expensesData, setExpensesData, expense, setExpense, setIsE
                           <option className='text-[#25274D]' value="Health">Health</option>
                           <option className='text-[#25274D]' value="Food">Food </option>
                           <option className='text-[#25274D]' value="Other">Other </option>
-                          <option className='text-[#25274D]' value="Internet and Mobile">Internet and Mobile </option>
+                          <option className='text-[#25274D]' value="Internet and Mobile">  Mobile </option>
                         </select>
                       </th>
-                      <th className=" text-lg font-bold  text-[#25274D]  px-6 py-4 whitespace-nowrap">
+                      <th className=" text-lg font-bold  text-[#25274D]  px-2 xl:px-4  py-4 whitespace-nowrap">
                         <p className=' flex justify-center items-center '>
                           Amount&nbsp; &nbsp;
                           <span><img

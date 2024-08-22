@@ -24,7 +24,7 @@ function App() {
   return (
     <>
       <h1 
-       className='text-6xl mt-12 font-[900] text-[#fbfcfd]'
+       className=' font-bold mt-12 md:font-[900] text-[#fbfcfd] text-3xl md:text-5xl xl:text-6xl'
        
        >Track your Expenses</h1>
       <UserData
