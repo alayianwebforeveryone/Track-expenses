@@ -14,13 +14,7 @@ function Calculator({ expensesData, setExpensesData, expense, setExpense, setIsE
 
 
 
-  const total = () => {
-    let sum = 0
-    expensesData.map((item) => {
-      sum += parseFloat(item.amount)
-    })
-    return sum
-  }
+
 
   const filterData = expensesData.filter((expense) => {
     if (cetagory === "All") {
@@ -33,7 +27,13 @@ function Calculator({ expensesData, setExpensesData, expense, setExpense, setIsE
 
   })
 
-
+  const total = () => {
+    let sum = 0
+    filterData.map((item) => {
+      sum += parseFloat(item.amount)
+    })
+    return sum
+  }
 
 
 
