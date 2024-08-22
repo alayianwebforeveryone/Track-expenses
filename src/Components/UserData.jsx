@@ -83,9 +83,10 @@ function UserData({ setExpensesData, expense, setExpense, isEditing, setIsEditin
               >
                 <option  style= {{backgroundColor : "#AAABB8  "}} className='font-bold text-[#25274D]' value="">Please choose an option</option>
                 <option style= {{backgroundColor : "#AAABB8  "}} className='text-[#25274D]' value="Food">Food</option>
-                <option  style= {{backgroundColor : "#AAABB8  "}} className='text-[#25274D]' value="Electricity" >Electricity</option>
-                <option style= {{backgroundColor : "#AAABB8  "}} className='text-[#25274D]' value="Pocket money">Pocket money</option>
+                <option  style= {{backgroundColor : "#AAABB8  "}} className='text-[#25274D]' value="Internet and Mobile" >Internet and Mobile</option>
+                <option style= {{backgroundColor : "#AAABB8  "}} className='text-[#25274D]' value="Education">Education</option>
                 <option style= {{backgroundColor : "#AAABB8  "}} className='text-[#25274D]' value="Health">Health</option>
+                <option style= {{backgroundColor : "#AAABB8  "}} className='text-[#25274D]' value="Other">Other</option>
               </select>
             </div>
             {touched.cetagory && errors.cetagory ? (

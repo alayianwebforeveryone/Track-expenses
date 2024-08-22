@@ -97,10 +97,11 @@ function Calculator({ expensesData, setExpensesData, expense, setExpense, setIsE
                           onChange={handleCetagoryFilter}
                           name="cetagory" id="ceta">
                           <option defaultValue="All" className='text-[#25274D]' value="All">All</option>
-                          <option className='text-[#25274D]' value="Electricity">Electricity</option>
+                          <option className='text-[#25274D]' value="Education">Education</option>
                           <option className='text-[#25274D]' value="Health">Health</option>
                           <option className='text-[#25274D]' value="Food">Food </option>
-                          <option className='text-[#25274D]' value="PocketMoney">Pocket Money </option>
+                          <option className='text-[#25274D]' value="Other">Other </option>
+                          <option className='text-[#25274D]' value="Internet and Mobile">Internet and Mobile </option>
                         </select>
                       </th>
                       <th className=" text-lg font-bold  text-[#25274D]  px-6 py-4 whitespace-nowrap">
