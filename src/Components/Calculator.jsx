@@ -109,11 +109,11 @@ function Calculator({ expensesData, setExpensesData, expense, setExpense, setIsE
                           Amount&nbsp; &nbsp;
                           <span><img
                             onClick={() => setExpensesData((prev) => [...prev.sort((a, b) => a.amount - b.amount)])}
-                            className='h-8 w-5 cursor-pointer'
+                            className=' h-8 w-8 sm:h-6 sm:w-6 md:h-5 md:w-5 cursor-pointer'
                             src={assending} alt="assending" /></span>
                           <span><img
                             onClick={() => setExpensesData((prev) => [...prev.sort((a, b) => b.amount - a.amount)])}
-                            className='h-8 w-5 cursor-pointer'
+                            className='h-8 w-8 sm:w-6 md:h-5 md:h-8 md:w-5  cursor-pointer'
                             src={decending} alt="decending" /></span>
 
                         </p>
